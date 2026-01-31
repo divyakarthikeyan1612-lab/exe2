@@ -8,7 +8,7 @@ To write a program to predict the marks scored by a student using the simple lin
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1.Collect the dataset consisting of the independent variable Hours Studied (X) and the dependent variable Marks Scored (Y). 
+1.Collect the dataset consisting of the independent variable Hours Studied (X) and the dependent variable Marks Scored (Y).
 2. Divide the dataset into training and testing sets to build and test the model.
 3. Train the model using the simple linear regression equation:
                   Y=b0 + b1X 
@@ -17,7 +17,7 @@ To write a program to predict the marks scored by a student using the simple lin
    b1=slope(regression coefficient)
    X=hours studied
    Y=predicted marks
-4.Predict the marks for given study hours using the trained model and evaluate performance using Mean Squared Error (MSE) and R² score. 
+   4.Predict the marks for given study hours using the trained model and evaluate performance using Mean Squared Error (MSE) and R² score. 
 
 ## Program:
 ```
@@ -78,7 +78,6 @@ print(f"\nPredicted marks for {hours} hours of study = {predicted_marks[0]:.2f}"
 
 ## Output:
 ![simple linear regression model for predicting the marks scored]
-<img width="548" height="352" alt="image" src="https://github.com/user-attachments/assets/398a6e86-5272-450d-949c-821bafd5fbbe" />
 
 <img width="1060" height="718" alt="image" src="https://github.com/user-attachments/assets/2fcabcac-9ee1-4702-979e-ff3d3c93ef2f" />
 
